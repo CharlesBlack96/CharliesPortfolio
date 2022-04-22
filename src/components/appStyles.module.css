@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Space+Mono:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(73, 62, 62);
+}
+li,
+a,
+button {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(245, 229, 229);
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+.profilePic {
+  width: 65px;
+  border: 1px solid greenyellow;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: auto;
+}
+.navbarLinks {
+  list-style: none;
+}
+.navbarLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navbarLinks li a {
+  transition: all 0.5s ease 0s;
+}
+.navbarLinks li a:hover {
+  color: greenyellow;
+}
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(1, 58, 58, 0.8);
+}
+.contact:hover {
+  color: greenyellow;
+}
+.sectionOne {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  padding: 250px 10%;
+}
+.hiMyName {
+  background-color: cadetblue;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(245, 229, 229);
+  text-decoration: none;
+  margin: 30px 10%;
+}
+.profilePic2 {
+  background-color: cadetblue;
+  width: 40%;
+  border: 10px dashed greenyellow;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: auto;
+}
+.sectionTwo {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(245, 229, 229);
+  text-decoration: none;
+  margin: 30px 10%;
+}
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0%;
+}
+.me {
+  padding: 10% 5%;
+}
+.sectionThree {
+  background-color: cadetblue;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgba(245, 229, 229);
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+.projects {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0%;
+}
+.projectPics {
+  background-color: cadetblue;
+  display: flex;
+  padding-left: 3%;
+}
+.project {
+  background-color: cadetblue;
+  width: 90%;
+  border: 1px solid greenyellow;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.projectText {
+  background-color: cadetblue;
+  padding-right: 20px;
+  font-size: 30px;
+}
+.projectwText {
+  background-color: cadetblue;
+}
+.sideColor {
+  background-color: cadetblue;
+}
