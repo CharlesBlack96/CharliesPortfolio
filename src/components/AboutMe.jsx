@@ -10,7 +10,6 @@ const AboutMe = () => {
   }, []);
   return (
     <div>
-      delete this
       <link to="AboutMe"></link>
       <head>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
