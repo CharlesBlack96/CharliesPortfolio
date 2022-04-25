@@ -15,7 +15,7 @@ const Hello = () => {
       </head>
       <section className={styles.sectionOne}>
         <h1 className={styles.hiMyName}>
-          Hi, my name is Charles Black, front end web Developer
+          - Hi, my name is Charles Black, front end web Developer
         </h1>
         <img
           class={styles.profilePic2}

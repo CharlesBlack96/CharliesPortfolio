@@ -53,29 +53,27 @@ button {
 button:hover {
   background-color: rgba(1, 58, 58, 0.8);
 }
-.contact:hover {
-  color: greenyellow;
-}
 .sectionOne {
-  background-color: cadetblue;
+  background-color: rgb(29, 51, 51);
   display: flex;
   justify-content: space-around;
   align-items: left;
-  padding: 250px 10%;
+  padding: 100px 10%;
 }
 .hiMyName {
-  background-color: cadetblue;
+  background-color: rgb(29, 51, 51);
   font-family: "montserrat", sans-serif;
   font-weight: 500;
   font-size: 50px;
-  color: rgb(245, 229, 229);
+  color: rgb(200, 174, 174);
   text-decoration: none;
-  margin: 30px 10%;
+  margin: 15px 10%;
+  border-bottom: 5 px solid green;
 }
 .profilePic2 {
   background-color: cadetblue;
-  width: 40%;
-  border: 10px dashed greenyellow;
+  width: 35%;
+  border: 5px dashed greenyellow;
   border-radius: 50%;
   cursor: pointer;
   margin-right: auto;
