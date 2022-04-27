@@ -7,13 +7,8 @@ import { AboutMe } from "./AboutMe";
 import { Projects } from "./Projects";
 const Navbar = () => {
   return (
-    <div>
+    <div className={styles.navbar}>
       <header className={styles.header}>
-        <img
-          className={styles.profilePic}
-          src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
-          alt="White cat with black background"
-        />
         <ul className={styles.navbarLinks}>
           <li>
             <Link to="/">Home</Link>

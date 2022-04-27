@@ -15,13 +15,15 @@ const Hello = () => {
       </head>
       <section className={styles.sectionOne}>
         <h1 className={styles.hiMyName}>
-          - Hi, my name is Charles Black, front end web Developer
+          Hi, my name is Charles Black, a front end web Developer
         </h1>
-        <img
-          class={styles.profilePic2}
-          src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
-          alt="White cat with black background"
-        />
+        <div className={styles.helloPic}>
+          <img
+            class={styles.profilePic2}
+            src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
+            alt="White cat with black background"
+          />
+        </div>
       </section>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>AOS.init();</script>
