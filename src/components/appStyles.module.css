@@ -38,7 +38,7 @@ header {
 button {
   margin-left: 20px;
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: rgb(194, 198, 127);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -132,5 +132,6 @@ button:hover {
   background-color: rgb(255, 255, 255);
 }
 .sideColor {
+  border-top: 4px solid rgb(217, 204, 204);
   background-color: rgb(255, 255, 255);
 }
