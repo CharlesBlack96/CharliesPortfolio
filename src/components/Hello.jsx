@@ -17,6 +17,9 @@ const Hello = () => {
         <h1 className={styles.hiMyName}>
           Charles Black, front end web Developer
         </h1>
+        <h1 className={styles.hiMyName2}>
+          Charles Black, front end web Developer
+        </h1>
         <div className={styles.helloPic}>
           <img
             class={styles.profilePic2}
